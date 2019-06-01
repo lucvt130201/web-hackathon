@@ -1,0 +1,43 @@
+body {
+    font-family: tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(/Users/vuongtranluc/Desktop/web/page1/image/download.jpeg);
+    
+    background-repeat: no-repeat;
+}
+
+#menu_top{
+    background: #fa9c88;
+    height: 50px;
+}
+
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    border-right: 2px solid;
+}
+
+#menu_top ul li a.active {
+    background: #EDD6D6;
+
+}
